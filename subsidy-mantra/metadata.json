@@ -1,0 +1,8 @@
+{
+  "name": "SubsidySetu",
+  "description": "Interactive Government Subsidy Eligibility Evaluator and AI Advising Platform for Indian MSMEs, Agriculture, Solar, and Industry sectors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
