@@ -28,7 +28,7 @@ export default function IndustrySlideshow({ onSelectIndustry }: IndustrySlidesho
   const slides: SlideItem[] = [
     {
       id: 'food',
-      image: '/src/assets/images/food_processing_setup_1780296534874.png',
+      image: foodImg
       title: 'Food Processing & Cold Storage Facilities',
       description: 'Support for modern flour mills, organic packaging, and solar cold chain units.',
       industryVal: 'food_processing',
