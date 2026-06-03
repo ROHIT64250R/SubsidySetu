@@ -100,17 +100,23 @@ export default function IndustrySlideshow({ onSelectIndustry }: IndustrySlidesho
           </h3>
 
           <p className="text-xs text-slate-400">
-            Swipe or use controls to review verified industrial configurations.
+            Swipe or use controls to review verified industrial setups.
           </p>
         </div>
 
         {/* Controls */}
-        <div className="flex items-center space-x-1.5">
-          <button onClick={handlePrev} className="p-2 rounded-xl bg-slate-950 border border-slate-800">
+        <div className="flex items-center space-x-2">
+          <button
+            onClick={handlePrev}
+            className="p-2 rounded-xl bg-slate-950 border border-slate-800"
+          >
             <ChevronLeft className="h-4 w-4 text-slate-400" />
           </button>
 
-          <button onClick={handleNext} className="p-2 rounded-xl bg-slate-950 border border-slate-800">
+          <button
+            onClick={handleNext}
+            className="p-2 rounded-xl bg-slate-950 border border-slate-800"
+          >
             <ChevronRight className="h-4 w-4 text-slate-400" />
           </button>
         </div>
