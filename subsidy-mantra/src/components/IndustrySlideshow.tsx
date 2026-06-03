@@ -4,6 +4,10 @@
  */
 
 import React, { useState, useEffect } from 'react';
+import foodImg from '../assets/images/food_processing_setup_1780296534874.png';
+import solarImg from '../assets/images/solar_factory_roof_1780296553621.png';
+import textileImg from '../assets/images/textiles_spinning_machinery_1780296572046.png';
+import engineeringImg from '../assets/images/heavy_engineering_workshop_1780296592903.png';
 import { ChevronLeft, ChevronRight, Eye, ShieldCheck, Factory } from 'lucide-react';
 
 interface SlideItem {
