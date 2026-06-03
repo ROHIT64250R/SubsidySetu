@@ -37,7 +37,7 @@ export default function IndustrySlideshow({ onSelectIndustry }: IndustrySlidesho
     },
     {
       id: 'solar',
-      image: '/src/assets/images/solar_factory_roof_1780296553621.png',
+      image: foodImg
       title: 'Commercial Solar & Power Integration Plants',
       description: 'Accelerated tax depreciation with optimized grid setups for factory roof projects.',
       industryVal: 'renewable_solar',
