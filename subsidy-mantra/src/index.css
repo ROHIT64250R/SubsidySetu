@@ -1,40 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
-@import "tailwindcss";
-
-@theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Space Grotesk", sans-serif;
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
+/* FIXED HEADER */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  z-index: 9999;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+/* LOGO */
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* NAVIGATION */
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+/* BODY OFFSET (IMPORTANT FIX) */
 body {
-  font-family: var(--font-sans);
-  background-color: #f8fafc;
-  color: #1e293b;
+  padding-top: 80px;
+  scroll-behavior: smooth;
 }
 
-/* Custom Scrollbar for chat and checklists */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
-  border-radius: 4px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
+/* SECTIONS */
+section {
+  min-height: 100vh;
+  padding: 40px;
 }
 
-@keyframes pulse-ring {
-  0% { transform: scale(0.95); opacity: 0.5; }
-  50% { transform: scale(1.05); opacity: 0.8; }
-  100% { transform: scale(0.95); opacity: 0.5; }
+/* BACKGROUNDS */
+#home {
+  background: #f5f5f5;
 }
 
-.animate-pulse-ring {
-  animation: pulse-ring 2s infinite ease-in-out;
+#review {
+  background: #e8f0ff;
 }
 
+#about {
+  background: #fff3e8;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
