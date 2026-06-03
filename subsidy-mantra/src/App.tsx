@@ -1564,49 +1564,15 @@ How can I help you regarding compliance, eligibility limits, or prepare document
                   Kalwar Road, Jhotwara,<br />
                   Jaipur, Rajasthan - 302012
                 </p>
-                <div className="mt-3 overflow-hidden rounded-xl border border-slate-800 w-full bg-slate-950" id="footer-google-map-container">
-                  <iframe
-                    title="SubsidySetu Google Map"
-                    src="https://maps.google.com/maps?q=B-1,%20C-2%20Krishna%20Enclave,%20Lata%20Nagar,%20Kalwar%20Road,%20Jhotwara,%20Jaipur&t=&z=14&ie=UTF8&iwloc=&output=embed"
-                    width="100%"
-                    height="120"
-                    style={{ border: 0 }}
-                    allowFullScreen={false}
-                    loading="lazy"
-                    referrerPolicy="no-referrer"
-                  />
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          {/* Divider line */}
-          <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-[11px] text-slate-500 gap-4">
-            <div className="flex items-center space-x-2">
-              <ShieldCheck className="h-4 w-4 text-emerald-500 shrink-0" />
-              <span>© {new Date().getFullYear()} SubsidySetu. Chartered Advisory Policy Evaluator. All Copyrights Reserved.</span>
-            </div>
-            <div className="flex flex-wrap gap-x-4 gap-y-1 text-slate-400">
-              <span className="text-slate-500">Gazette Sync:</span>
-              <strong className="font-semibold text-slate-400">Rajasthan Active (PSI 2022)</strong>
-              <span>|</span>
-              <span className="hover:text-slate-300 transition">Ministry of MSME Registered Partners</span>
-            </div>
-          </div>
-
-          {/* Dedicated Golden Developer Credit Belt */}
-          <div className="border-t border-slate-800/80 mt-6 pt-4 flex flex-col sm:flex-row justify-between items-center text-xs gap-3">
-            <span className="text-slate-500 text-[11px]">Designed under national MSME and digital policy frameworks.</span>
-            <div className="bg-amber-400/5 border border-amber-500/30 px-4 py-2 rounded-full shadow-lg shadow-amber-500/5 animate-pulse">
-              <span className="text-amber-400 font-extrabold font-mono uppercase tracking-widest text-[10px] sm:text-xs">
-                ✨ Website made by Developed Rohit Kumawat
-              </span>
-            </div>
-          </div>
-
-        </div>
-      </footer>
-    </div>
-  );
-}
+               <div className="mt-3 overflow-hidden rounded-xl border border-slate-800 w-full bg-slate-950" id="footer-google-map-container">
+  <iframe
+    title="SubsidySetu Google Map"
+    src="https://maps.google.com/maps?q=B-1%2C%20C-2%20Krishna%20Enclave%2C%20Lata%20Nagar%2C%20Near%20Burger%20Farm%2C%20Kalwar%20Road%2C%20Jhotwara%2C%20Jaipur%20Rajasthan%20302012&t=&z=16&ie=UTF8&iwloc=&output=embed"
+    width="100%"
+    height="250"
+    style={{ border: 0 }}
+    allowFullScreen={false}
+    loading="lazy"
+    referrerPolicy="no-referrer"
+  />
+</div>
