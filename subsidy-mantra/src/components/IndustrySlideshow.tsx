@@ -44,15 +44,15 @@ export default function IndustrySlideshow({ onSelectIndustry }: IndustrySlidesho
   tag: 'MNRE Rooftop Policy',
   benefits: 'Accelerated 40% tax depreciation allowance + Net-metering local DISCOM concessions.'
 },
-    {
-      id: 'textile',
-      image:  /src/assets/....textileImg,
-      title: 'Automated Textile & Spinning Machinery',
-      description: 'High-speed weaving, spinning mills, and composite garment processing lines.',
-      industryVal: 'textiles',
-      tag: 'CLCSS & State TUF Alternatives',
-      benefits: '15% upfront capital subsidy + Stamp duty concessions up to 100% on machinery land.'
-    },
+   {
+  id: 'textile',
+  image: textileImg,
+  title: 'Automated Textile & Spinning Machinery',
+  description: 'High-speed weaving, spinning mills, and composite garment processing lines.',
+  industryVal: 'textiles',
+  tag: 'CLCSS & State TUF Alternatives',
+  benefits: '15% upfront capital subsidy + Stamp duty concessions up to 100% on machinery land.'
+},
     {
       id: 'engineering',
       image: '/src/assets/images/heavy_engineering_workshop_1780296592903.png',
