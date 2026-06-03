@@ -36,7 +36,6 @@ export default function IndustrySlideshow({ onSelectIndustry }: IndustrySlidesho
       benefits: '35% capital subsidy benefits + State electricity duty exemptions for 7 years.'
     },
     {
-    {
   id: 'solar',
   image: solarImg,
   title: 'Commercial Solar & Power Integration Plants',
