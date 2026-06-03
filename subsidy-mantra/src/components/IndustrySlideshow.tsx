@@ -46,7 +46,7 @@ export default function IndustrySlideshow({ onSelectIndustry }: IndustrySlidesho
 },
     {
       id: 'textile',
-      image: '/src/assets/images/textiles_spinning_machinery_1780296572046.png',
+      image: image: textileImg,
       title: 'Automated Textile & Spinning Machinery',
       description: 'High-speed weaving, spinning mills, and composite garment processing lines.',
       industryVal: 'textiles',
