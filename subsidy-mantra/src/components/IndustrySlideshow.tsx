@@ -36,14 +36,15 @@ export default function IndustrySlideshow({ onSelectIndustry }: IndustrySlidesho
       benefits: '35% capital subsidy benefits + State electricity duty exemptions for 7 years.'
     },
     {
-      id: 'solar',
-      image: foodImg
-      title: 'Commercial Solar & Power Integration Plants',
-      description: 'Accelerated tax depreciation with optimized grid setups for factory roof projects.',
-      industryVal: 'renewable_solar',
-      tag: 'MNRE Rooftop Policy',
-      benefits: 'Accelerated 40% tax depreciation allowance + Net-metering local DISCOM concessions.'
-    },
+    {
+  id: 'solar',
+  image: solarImg,
+  title: 'Commercial Solar & Power Integration Plants',
+  description: 'Accelerated tax depreciation with optimized grid setups for factory roof projects.',
+  industryVal: 'renewable_solar',
+  tag: 'MNRE Rooftop Policy',
+  benefits: 'Accelerated 40% tax depreciation allowance + Net-metering local DISCOM concessions.'
+},
     {
       id: 'textile',
       image: '/src/assets/images/textiles_spinning_machinery_1780296572046.png',
